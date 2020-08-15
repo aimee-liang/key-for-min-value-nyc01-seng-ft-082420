@@ -13,6 +13,7 @@ def key_for_min_value(name_hash)
       return "This is an empty hash"
       end
     end
+    end
   end 
   return smallest_key
 end
