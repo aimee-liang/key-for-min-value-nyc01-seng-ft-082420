@@ -11,8 +11,6 @@ def key_for_min_value(name_hash)
       smallest_key = k
     elsif name_hash.empty?
       puts "This is an empty hash"
-      end
-    end
     end
   end 
   return smallest_key
