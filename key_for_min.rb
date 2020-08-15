@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       smallest_value = v 
       smallest_key = k
     elsif name_hash.empty?
+      return "This is an empty hash"
       end
     end
   end 
