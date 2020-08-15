@@ -6,11 +6,10 @@ def key_for_min_value(name_hash)
   smallest_key = nil 
   
   name_hash.each do |k, v|
-    if v < smallest_value
+    if smallest_value == nil || if v < smallest_value
       smallest_value = v 
       smallest_key = k
-    elsif name_hash.empty?
-      puts "This is an empty hash"
+      end
     end
   end 
   return smallest_key
